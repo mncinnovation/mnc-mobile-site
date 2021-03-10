@@ -11,43 +11,43 @@
 
 [[standard]]
   name = "Android"
-  weight = 60
+  weight = 20
   identifier = "android"
   url = "/standard/android/"
 
 [[standard]]
   name = "Flutter"
-  weight = 60
+  weight = 30
   identifier = "flutter"
   url = "/standard/flutter/"
 
 [[standard]]
   name = "IOS"
-  weight = 60
+  weight = 40
   identifier = "ios"
   url = "/standard/ios/"
 
 [[main]]
   name = "Docs"
-  url = "/docs/prologue/introduction/"
-  weight = 10
+  url = "/docs/welcome/introduction/"
+  weight = 20
 
 [[docs]]
-  name = "Prologue"
+  name = "Welcome"
   weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  identifier = "welcome"
+  url = "/docs/welcome/"
 
 [[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
+  name = "MNC Apps"
+  weight = 20
+  identifier = "mncapps"
+  url = "/docs/mncapps/"
 
 [[main]]
   name = "Blog"
   url = "/blog/"
-  weight = 20
+  weight = 30
 
 # [[social]]
 #   name = "Twitter"

@@ -138,3 +138,7 @@ Common only contain model, widget, and utils
 
 - Follow [Dart Documentation](https://dart.dev/guides/language/effective-dart/documentation)
 - Add Method flow explanation for long method
+
+## Resource
+
+[Download Presentation](https://docs.google.com/presentation/d/1l-0TQTuK7GtiD9eQ8KssI948yl7JhFk7alq5YfxpF30/edit?usp=sharing)
