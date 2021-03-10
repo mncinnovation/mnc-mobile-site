@@ -1,71 +1,54 @@
-/* jost-regular - latin */
+/* archivo-regular - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Archivo';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
-  src:
-    local("Jost"),
-    url("fonts/vendor/jost/jost-v4-latin-regular.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('fonts/vendor/archivo-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/vendor/archivo-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-/* jost-500 - latin */
+/* archivo-500 - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Archivo';
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
-  src:
-    local("Jost"),
-    url("fonts/vendor/jost/jost-v4-latin-500.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('fonts/vendor/archivo-v7-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/vendor/archivo-v7-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-/* jost-700 - latin */
+/* archivo-italic - latin */
 @font-face {
-  font-family: "Jost";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src:
-    local("Jost"),
-    url("fonts/vendor/jost/jost-v4-latin-700.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* jost-italic - latin */
-@font-face {
-  font-family: "Jost";
+  font-family: 'Archivo';
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
-  src:
-    local("Jost"),
-    url("fonts/vendor/jost/jost-v4-latin-italic.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('fonts/vendor/archivo-v7-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/vendor/archivo-v7-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-/* jost-500italic - latin */
+/* archivo-500italic - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Archivo';
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
-  src:
-    local("Jost"),
-    url("fonts/vendor/jost/jost-v4-latin-500italic.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-500italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('fonts/vendor/archivo-v7-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/vendor/archivo-v7-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-/* jost-700italic - latin */
+/* archivo-700italic - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Archivo';
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
-  src:
-    local("Jost"),
-    url("fonts/vendor/jost/jost-v4-latin-700italic.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('fonts/vendor/archivo-v7-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/vendor/archivo-v7-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* archivo-700 - latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('fonts/vendor/archivo-v7-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/vendor/archivo-v7-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
