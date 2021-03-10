@@ -17,102 +17,72 @@ toc: true
 
 ## Standard
 
-- Architecture
-  - Design Pattern
-  - Foldering/packaging
-- Code style and features
-- Documentation
+- Design Pattern
+- Layout
+- Folder
 - Security
-- Naming class ui (widget) & resources
-- Third party libraries
+- Documentation
+- Best Practice
+- Review Code
+- Must Have Features
+- Third Party
+- Optional Third Party
 
-## Architecture
+## Design Pattern
 
-- Modular
-  - Project Features splited by module/library as possible
-  - Core module to support other module/project
-- Architecture Components Android Jetpack
-- Design Pattern MVVM
+Model View ViewModel + RXSwift
 
-### Inside Core Library
+## Layout
 
-- Network/ Connection configurations
-- Base -> ViewModel, Activity, Fragment, Adapter, WebView, etc
-- Utils & Extentions
-- Widgets
-- Analytics Repository (for log event)
-- In app updates function
+- XIB File + Snapkit, Specific for 1 view
 
-### Modular Project
+## Folder
 
-{{< img src="diagrammodular.jpeg" alt="Diagram modular Image" caption="<em>Diagram modular Image</em>" class="border-0" >}}
-
-### Foldering/Packaging
-
-//TODO BAYU
-
-## Code Style, Features
-
-Code
-
-- [Kotlin style guide](https://developer.android.com/kotlin/style-guide)
-
-Documentation Code
-
-- K-Doc - dokka
-- Markdown
-
-Features
-
-- Deeplink
-- Analytics
+TODO Andi
 
 ## Security
 
-- Proguard
-- SSL Pinning
-- Integrate Keystore
-- Env variable value (cred data : Global Properties)
-- Root (firebase)
+1. Keychain
+2. Jailbreak Detection
+
+## Documentation
+
+- General function and method
+- Flow method
 
 ## Best Practice
 
-- Single-Activity arch
-- Use Navigation Component
-- Using kotlin with reactive programming
-- Min SDK 21
-- Using Dependency Injection
-- Assets svg
-- Core GraphQL (replacing webservice)
-- Core Webservice
-- Theme & Styling
-- Tablet Version
-  - Separated apk mobile and tablet
-  - Same core business logic
-  - Same repository (splited by branch)
-  - Only different on layout
+- Environment: Scheme
+- Style Guide: [Airbnb](https://github.com/airbnb/swift)  
+- [Swiftlint (Install to Mac/Use brew)](https://github.com/realm/SwiftLint)
 
-### Don’t do it
+## Best Practice
 
-- __Don’t use beta/ alpha__ library version (ex: compose)
-- __Don’t use Kotlin synthetics__ (not longer supported), use view binding instead
-- To handle nullable __don’t use !!__, using lateinit, ?., ?: or ?.let{ /*do something*/ } instead
+- Memory management using Instrument
 
-## Naming UI View
+## Must Have Features
 
-TODO// Bayu
+- Deeplink
+- Crashlytics
+- Analytics
+- Firebase Performance
+- Versioning and Force update mechanism -> store update (optional) (There is an option for tolerance updates)
 
-## Naming Resource
+## Third Party
 
-TODO// Bayu
+- [Alamofire](https://github.com/Alamofire/Alamofire)
+- [RX](https://github.com/ReactiveX/RxSwift)
+- [Snapkit](https://github.com/SnapKit/SnapKit)
+- [Kingfisher](https://github.com/onevcat/Kingfisher)
+- Dependency Injection
+- Firebase crashlytics
+- Firebase analytics
+- Firebase performance
+- [Version](https://github.com/mxcl/Version)
 
-## 3rd party libraries
+## Optional Third Party
 
-- Jetpack Components
-- navigation, paging, camera, fragment, livedata, room, etc
-- Async : Coroutines
-- Dependency Injection : Dagger2/ Koin
-- Network/ Connection : Retrofit
-- Unit Testing : JUnit + Mockito
-- Load Image : Glide
-- Others : From google first than commons used
+- [Realm](https://docs.mongodb.com/realm-sdks/swift/latest/)
+- [Eureka](https://github.com/xmartlabs/Eureka)
+- [Floating Panel](https://github.com/scenee/FloatingPanel)
+- [SkeletonView](https://github.com/Juanpe/SkeletonView)
