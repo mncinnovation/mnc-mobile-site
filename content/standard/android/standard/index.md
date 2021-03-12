@@ -45,11 +45,54 @@ toc: true
 
 ### Modular Project
 
-{{< img src="diagrammodular.jpeg" alt="Diagram modular Image" caption="<em>Diagram modular Image</em>" class="border-0" >}}
+{{< img src="diagrammodular.png" alt="Diagram modular Image" caption="<em>Diagram modular Image</em>" class="border-0" >}}
+
+- **app** : main module project
+- **module-1..module-N** : module of features. 
+  To define module of feature, create a group of features. For example if we have a project like Gojek may the module are like below.
+| Module Name | Description |
+|-----|-----|
+| auth | Module for authentication. In here there are login, register, forgot password |
+| go-food | Module for GoFood. There are near me, voucher/ promo (go-food), history, etc. |
+| go-send | Module for GoSend. There are within city, intercity and voucher |
+
+- **common** : is a module to support other modules that have common used classes in project following their own contract/business model.
+- **core** : core library.
 
 ### Foldering/Packaging
 
-//TODO BAYU
+Structure of foldering/packaging in module are like this
+
+```Stucture
+app (module name)
+│─── di
+│  │   ...
+│─── model
+│  │   NotifRequestModel
+│  │   NotifResponseModel
+│─── repository
+│  │   ...
+│─── service
+│  │   ...
+│─── ui
+│  │   main
+│  │  │   MainViewModel
+│  │  │   MainFragment
+│  │  │   MainActivity
+│  │   notif
+│  │  │   ...
+│─── util
+│  │   ...
+```
+
+| Package | Description |
+|-----|-----|
+| **di** | Is a subpackage for dependency injection |
+| **model** | Is a subpackage for class models |
+| **repository** | Is a subpackage for api or local repository, that have function to help view model retrive data |
+| **service** | Is a subpackage for all background related service packages/classes |
+| **ui** | Is a subpackage for all UI-related packages/classes including their own view model class |
+| **util** | For used global helper functions in module |
 
 ## Code Style, Features
 
@@ -59,7 +102,7 @@ Code
 
 Documentation Code
 
-- K-Doc - dokka
+- K-Doc format, and use dokka engine documentation
 - Markdown
 
 Features
@@ -100,11 +143,41 @@ Features
 
 ## Naming UI View
 
-TODO// Bayu
+Most commonly used naming Android UI View classes following format abbrevation_name like below.
+
+| View Class | Abbrevation | Naming Sample |
+|----|----|----|
+| CoordinatorLayout | cdl | cdl_profile |
+| ConstraintLayout | csl | csl_main_fragment |
+| AppBarLayout | abl | abl_main |
+| Button | btn | btn_checkout |
+| EditText | et | et_username |
+| ProgressBar | pb | pb_checkout |
+| TextView | tv | tv_info_update |
+| RadioButton | rb | rb_male |
 
 ## Naming Resource
 
-TODO// Bayu
+### Layout
+Recommendation of layout names are like this.
+
+{{< img src="layoutnamesample.png" alt="Drawable names Image" caption="<em>Drawable names Image</em>" class="border-0" >}}
+
+### Drawables
+We use <WHAT>_<DESCRIPTION> for strings naming. <WHAT> is Button,Dialog,Divider,Icon, etc & description give any extra information.
+
+{{< img src="drawablenamesample.png" alt="Drawable names Image" caption="<em>Drawable names Image</em>" class="border-0" >}}
+
+### String
+
+String names start with a prefix that identifies the section they belong to. We use ``<HOW>_<DESCRIPTION>`` for strings naming. ``<HOW>`` to indicate reason of the string will be used & ``description`` give any extra information.
+
+For ex:
+
+{{< img src="stringnamesample.png" alt="String names Image" caption="<em>String names Image</em>" class="border-0" >}}
+
+* ``<string name="label_update_app_now">Update aplikasi sekarang!</string>`` : how = label & update_app_now is description of the string.
+* ``<string name="hint_user_name">``Masukkan Username</string> : how = hint & user_name is the description of string.
 
 ## 3rd party libraries
 
