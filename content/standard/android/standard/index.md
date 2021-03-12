@@ -47,6 +47,18 @@ toc: true
 
 {{< img src="diagrammodular.png" alt="Diagram modular Image" caption="<em>Diagram modular Image</em>" class="border-0" >}}
 
+- **app** : main module project
+- **module-1..module-N** : module of features. 
+  To define module of feature, create a group of features. For example if we have a project like Gojek may the module are like below.
+| Module Name | Description |
+|-----|-----|
+| auth | Module for authentication. In here there are login, register, forgot password |
+| go-food | Module for GoFood. There are near me, voucher/ promo (go-food), history, etc. |
+| go-send | Module for GoSend. There are within city, intercity and voucher |
+
+- **common** : is a module to support other modules that have common used classes in project following their own contract/business model.
+- **core** : core library.
+
 ### Foldering/Packaging
 
 Structure of foldering/packaging in module are like this
