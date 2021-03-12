@@ -27,4 +27,4 @@ toc: true
 - Module Generator
 - Widget File Creator
 
-![Module Generator](https://mnc-repo.mncdigital.com/mobiledevadmin/mnc-flutter-code-standard-vsext/raw/master/assets/create-module-gif.gif)
+{{< img src="ext.gif" alt="Extention Image"  class="border-0" >}}

@@ -15,6 +15,13 @@ toc: true
 
 ## MNCApps
 
-![image](https://firebasestorage.googleapis.com/v0/b/mnc-apps-libs.appspot.com/o/assets%2FSimulator%20Screen%20Shot%20-%20iPhone%20X%20-%202021-02-10%20at%2011.18.11.jpg?alt=media)
+| | |
+| --- | -------- |
+| {{< img src="SSMNCApp.jpg" alt="Screenshoot"  class="border-0" >}}|SDK to help you discover, and manage all MNC Apps to display it on your application [Get Started](../../mncapps/cms/) |
 
-SDK to help you discover, and manage all MNC Apps to display it on your application [Get Started](../../mncapps/introduction/)
+it has features:
+
+- Manage Apps
+- Customize Layout
+- Customize Apps Order
+- Manage Click Behaviour
