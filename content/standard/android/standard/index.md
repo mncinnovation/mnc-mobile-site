@@ -45,7 +45,7 @@ toc: true
 
 ### Modular Project
 
-{{< img src="diagrammodular.jpeg" alt="Diagram modular Image" caption="<em>Diagram modular Image</em>" class="border-0" >}}
+{{< img src="diagrammodular.png" alt="Diagram modular Image" caption="<em>Diagram modular Image</em>" class="border-0" >}}
 
 ### Foldering/Packaging
 
