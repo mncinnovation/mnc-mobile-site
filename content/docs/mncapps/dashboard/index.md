@@ -13,22 +13,46 @@ weight: 21
 toc: true
 ---
 
+{{< img src="dashboardpreview.jpeg" alt="Dashboard Preview" caption="<em>Dashboard Preview</em>" class="border-0" >}}
+
 ## Get Started
 
-There are two main ways to get started with Doks:
+### Install
+
+#### System Requiment
+
+- MAC OSX
+- RAM 8GB
+- Available Space 100MB
+
+### Download
+
+[Download .app](https://firebasestorage.googleapis.com/v0/b/mnc-apps-libs.appspot.com/o/app%2Fcmsmoreapps.zip?alt=media&token=877caf77-775b-452b-93d7-d077acb150a9) _Version 1.3_
+
+### Open The .app file
+
+allow all keychain, the app save all credential file in keychain
+
+if you cant open it. let us know contact [handi.deyana@mncgroup.com](mailto://handi.deyana@mncgroup.com)
 
 ## Manage Your Product
 
-There are two main ways to get started with Doks:
+{{< alert icon="❗️" text="You have to add My Product first" >}}
 
-## Manage In App Display
+### How to add my product
 
-There are two main ways to get started with Doks:
+1. Select My Product on Side Panel
 
-## Manage Order
+2. Click plus icon on right corner
 
-There are two main ways to get started with Doks:
+{{< img src="addproduct.jpeg" alt="Add My Product" caption="<em>Add My Product</em>" class="border-0" >}}
 
-## Manage Visibility and click behaviour
+{{< alert icon="❗️" text="Product identifier are important to implement inapp and to deliver personalized configuration" >}}
 
-There are two main ways to get started with Doks:
+Now you are ready make you own configuration at layout, order, and behaviour
+
+## How to retrive UserID
+
+Go to top right botton
+
+{{< img src="userID.jpeg" alt="User ID" caption="<em>User ID</em>" class="border-0" >}}
