@@ -3,34 +3,84 @@ title: "Privacy Policy"
 description: "We do not use cookies and we do not collect any personal data."
 date: 2020-08-27T19:23:18+02:00
 lastmod: 2020-08-27T19:23:18+02:00
-draft: true
+draft: false
 images: []
 ---
 
 __TLDR__: We do not use cookies and we do not collect any personal data.
 
-## Website visitors
+Your privacy is important to us. It is MNC Innovation Center's policy to respect your privacy and comply with any applicable law and regulation regarding any personal information we may collect about you, including across our website and app and app, https://mobile.mncinnovation.id/, and other sites and app we own and operate.
 
-- No personal information is collected.
-- No information is stored in the browser.
-- No information is shared with, sent to or sold to third-parties.
-- No information is shared with advertising companies.
-- No information is mined and harvested for personal and behavioral trends.
-- No information is monetized.
+This policy is effective as of 25 March 2021 and was last updated on 25 March 2021.
 
-### Information we collect and what we use it for
+## Information We Collect
 
-We run [Plausible](https://plausible.io/) analytics on getdoks.org. The following information is collected:
+Information we collect includes both information you knowingly and actively provide us when using or participating in any of our services and promotions, and any information automatically sent by your devices in the course of accessing our products and services.
 
-- __Page URL__. We track the page URL of each page view on this website. We use this to understand which pages have been viewed and how many times a particular page has been viewed. For example: _https://getdoks.org/_.
-- __HTTP Referrer__. We use the referrer string to understand the number of visitors referred to this website from links on other sites. For example: _https://github.com/_.
-- __Browser__. We use this to understand what browsers people use when visiting this website. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. For example: _Chrome_.
-- __Operating system__. We use this to understand what operating systems people use when visiting this website. We only use the brand of the operating system and don’t include the version number or any other details. This is derived from the User-Agent HTTP header. The full User-Agent is discarded. For example: _GNU/Linux_.
-- __Device type__. We use this to understand what devices people use when visiting this website. This is derived from window.innerWidth. The actual width of the browser in pixels is discarded. For example: _Desktop_.
-- __Visitor Country__. We look up the visitor’s country using the IP address. We do not track anything more granular than the country of origin and the IP address of the visitor is discarded. We never store IP addresses in our database or logs. For example: _Canada_.
+## Log Data
 
-## Contact us
+When you visit our website and app, our servers may automatically log the standard data provided by your web browser. It may include your device’s Internet Protocol (IP) address, your browser type and version, the pages you visit, the time and date of your visit, the time spent on each page, other details about your visit, and technical details that occur in conjunction with any errors you may encounter.
 
-[Contact us]({{< ref "contact/index.md" >}}) if you have any questions.
+Please be aware that while this information may not be personally identifying by itself, it may be possible to combine it with other data to personally identify individual persons.
 
-Effective Date: _27th August 2020_
+## Collection and Use of Information
+
+We may collect personal information from you when you do any of the following on our website and app:
+
+- Use a mobile device or web browser to access our content
+- Contact us via email, social media, or on any similar technologies
+- When you mention us on social media
+We may collect, hold, use, and disclose information for the following purposes, and personal information will not be further processed in a manner that is incompatible with these purposes:
+
+Please be aware that we may combine information we collect about you with general information or research data we receive from other trusted sources.
+
+## Security of Your Personal Information
+
+When we collect and process personal information, and while we retain this information, we will protect it within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use, or modification.
+
+Although we will do our best to protect the personal information you provide to us, we advise that no method of electronic transmission or storage is 100% secure, and no one can guarantee absolute data security. We will comply with laws applicable to us in respect of any data breach.
+
+You are responsible for selecting any password and its overall security strength, ensuring the security of your own information within the bounds of our services.
+
+## How Long We Keep Your Personal Information
+
+We keep your personal information only for as long as we need to. This time period may depend on what we are using your information for, in accordance with this privacy policy. If your personal information is no longer required, we will delete it or make it anonymous by removing all details that identify you.
+
+However, if necessary, we may retain your personal information for our compliance with a legal, accounting, or reporting obligation or for archiving purposes in the public interest, scientific, or historical research purposes or statistical purposes.
+
+## Children’s Privacy
+
+We do not aim any of our products or services directly at children under the age of 13, and we do not knowingly collect personal information about children under 13.
+
+## International Transfers of Personal Information
+
+The personal information we collect is stored and/or processed where we or our partners, affiliates, and third-party providers maintain facilities. Please be aware that the locations to which we store, process, or transfer your personal information may not have the same data protection laws as the country in which you initially provided the information. If we transfer your personal information to third parties in other countries: (i) we will perform those transfers in accordance with the requirements of applicable law; and (ii) we will protect the transferred personal information in accordance with this privacy policy.
+
+## Your Rights and Controlling Your Personal Information
+
+You always retain the right to withhold personal information from us, with the understanding that your experience of our website and app may be affected. We will not discriminate against you for exercising any of your rights over your personal information. If you do provide us with personal information you understand that we will collect, hold, use and disclose it in accordance with this privacy policy. You retain the right to request details of any personal information we hold about you.
+
+If we receive personal information about you from a third party, we will protect it as set out in this privacy policy. If you are a third party providing personal information about somebody else, you represent and warrant that you have such person’s consent to provide the personal information to us.
+
+If you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time. We will provide you with the ability to unsubscribe from our email-database or opt out of communications. Please be aware we may need to request specific information from you to help us confirm your identity.
+
+If you believe that any information we hold about you is inaccurate, out of date, incomplete, irrelevant, or misleading, please contact us using the details provided in this privacy policy. We will take reasonable steps to correct any information found to be inaccurate, incomplete, misleading, or out of date.
+
+If you believe that we have breached a relevant data protection law and wish to make a complaint, please contact us using the details below and provide us with full details of the alleged breach. We will promptly investigate your complaint and respond to you, in writing, setting out the outcome of our investigation and the steps we will take to deal with your complaint. You also have the right to contact a regulatory body or data protection authority in relation to your complaint.
+
+## Limits of Our Policy
+
+our website and app may link to external sites that are not operated by us. Please be aware that we have no control over the content and policies of those sites, and cannot accept responsibility or liability for their respective privacy practices.
+
+## Changes to This Policy
+
+At our discretion, we may change our privacy policy to reflect updates to our business processes, current acceptable practices, or legislative or regulatory changes. If we decide to change this privacy policy, we will post the changes here at the same link by which you are accessing this privacy policy.
+
+If required by law, we will get your permission or give you the opportunity to opt in to or opt out of, as applicable, any new uses of your personal information.
+
+## Contact Us
+
+For any questions or concerns regarding your privacy, you may contact us using the following details:
+
+Handi Deyana
+handi.deyana@mncgroup.com
