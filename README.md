@@ -19,19 +19,19 @@ Instructions for using the repository and creating content are provided below
    npm run start
    ```
 5. Copy the link and run it in the browser<br>
-   ![alt text](https://docs.google.com/uc?export=download&id=1fh2gPccTOU4nAi6r2fESyIopz9lQRxrN)
+   ![Alt text](images/image_readme_1.png)
 6. The project has been successfully executed on your local server<br>
-   ![alt text](https://docs.google.com/uc?export=download&id=12xh4ChAjCV_wb7ydbhJMhYZG_bLIONs2)
+   ![Alt text](images/image_readme_2.png)
    
 
 
 ### How Add Content
 1. Create new folder and new file<br>
-   ![alt text](https://docs.google.com/uc?export=download&id=1lONqRkQquNrKCWWUHGxZtHcNMZCZZd-5)
+   ![Alt text](images/image_readme_3.png)
 2. Write your content in index.md<br>
-   ![alt text](https://docs.google.com/uc?export=download&id=15XAYEf1lmnH9yvGaNEAvxVwKZndZuywK)
+   ![Alt text](images/image_readme_4.png)
 3. Don't forget to add your profile to the contributors folder<br>
-   ![alt text](https://docs.google.com/uc?export=download&id=1NZ2_lO_M_fhSeZkPRPQJ9Q_LC4405A2T)
+   ![Alt text](images/image_readme_5.png)
 4. Create new Branch 
    ```sh
    git branch your-branch-name
