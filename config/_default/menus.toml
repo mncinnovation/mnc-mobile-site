@@ -45,6 +45,11 @@
   url = "/docs/mncapps/"
 
 [[main]]
+  name = "Showcase"
+  url = "/showcase/"
+  weight = 30
+
+[[main]]
   name = "Blog"
   url = "/blog/"
   weight = 30
