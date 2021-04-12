@@ -38,7 +38,58 @@ Model View ViewModel + RXSwift
 
 ## Folder
 
-TODO Andi
+{{< img src="ioscorefolder.png" alt="Core folder Image" caption="<em>Core folder Image</em>" class="border-0" >}}
+{{< img src="iosmodulesfolder.png" alt="Modules folder Image" caption="<em>Modules folder Image</em>" class="border-0" >}}
+
+```Stucture
+App 
+│─── Core
+│	│─── Controllers
+│	│	│ 	...
+│	│─── Extensions
+│	│	│ 	...
+│	│─── Models
+│	│	│ 	...
+│	│─── Resources
+│	│	│ 	...
+│	│─── Services
+│	│	│ 	...
+│	│─── Static Data
+│	│	│─── Enum
+│	│	│	│ 	...
+│	│	│ 	...
+│	│─── Subviews
+│	│	│ 	...
+│	│─── Utils
+│	│	│ 	...
+│	│─── ViewModels
+│	│	│ 	...
+│─── Modules
+│	│─── Login (example module name)
+│	│	│─── Models
+│	│	│	│ 	...
+│	│	│─── Subviews
+│	│	│	│ 	...
+│	│	│ 	 LoginViewController
+│	│	│	 LoginViewController.xib
+│	│	│	 LoginnViewModel
+```
+
+| Folder | Description |
+|-----|-----|
+| **Core** | Is a subpackage for core and common class |
+| **Core/Controllers** | Is a subpackage for base controllers class |
+| **Core/Extensions** | Is a subpackage for extension class |
+| **Core/Models** | Is a subpackage for class model |
+| **Core/Resources** | Is a subpackage for external files |
+| **Core/Services** | Is a subpackage for all background related service packages/classes |
+| **Core/Static Data** | Is a subpackage for static data class/function |
+| **Core/Static Data/Enums** | Is a subpackage for static data enum type |
+| **Core/Subviews** | Is a subpackage for ui subclass of UIView |
+| **Core/Utils** | Is a subpackage for used global helper functions in module |
+| **Core/ViewModels** | Is a subpackage for base class of view |
+| **Modules** | Is a subpackage for class modules |
+
 
 ## Security
 
