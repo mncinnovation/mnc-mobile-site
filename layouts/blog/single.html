@@ -3,10 +3,10 @@
   <div class="col-md-12 col-lg-10 col-xl-8">
     <article>
       <div class="blog-header">
-        <h1>{{ .Title }}</h1>
-        {{ partial "main/blog-meta.html" . }}
+        <h1 class="blog-title-style">{{ .Title }}</h1>
+        <p class="sub-caption">{{ partial "main/blog-meta.html" .}}</p>
       </div>
-      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
       {{ .Content }}
     </article>
   </div>
