@@ -5,7 +5,7 @@ lead: "Introducing MNC Identifier, ekyc with in device machine learning"
 date: 2021-04-16
 lastmod: 2021-04-16
 draft: false
-weight: 1
+weight: 2
 image: ["intro.jpg"]
 contributors: ["Handi Deyana"]
 ---
