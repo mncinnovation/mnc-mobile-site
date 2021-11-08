@@ -27,6 +27,12 @@
   identifier = "ios"
   url = "/standard/ios/"
 
+[[standard]]
+  name = "Git"
+  weight = 50
+  identifier = "git"
+  url = "/standard/git/"
+
 [[main]]
   name = "Docs"
   url = "/docs/welcome/introduction/"

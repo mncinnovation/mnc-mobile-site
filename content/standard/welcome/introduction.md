@@ -43,3 +43,7 @@ To read about flutter standard go to this link [Flutter →](/standard/flutter/s
 ### IOS
 
 To read about ios standard go to this link [IOS →](/standard/ios/standard/)
+
+### Git
+
+To read about git standard go to this link [Git →](/standard/git/standard/)
