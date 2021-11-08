@@ -13,7 +13,7 @@ weight: 40
 toc: true
 ---
 
-Since developers has different git knowledge and git has many workflow like Centralized Workflow, Feature Branch Workflow, Gitflow, and Forking Workflow, to make collaboration within team are run smoothly there are standard workflow that every mobile innovation center project MUST follow.
+Since developers has different git knowledge and git has many workflow like Centralized Workflow, Feature Branch Workflow, Gitflow, and Forking Workflow, to make collaboration within team run smoothly there are standard workflow that every mobile innovation center project MUST follow.
 
 ## Git Feature Branch Workflow
 
@@ -72,11 +72,10 @@ Based on [conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0
 
 ### Commit Example
 
- <type>: <description>
- git commit -m 'Fix:added y to x’  
- git commit -m ‘Fix:Typo in readme.md’  
- git commit -m ‘refactor:drop support for iOS 8’  
- git commit -m ‘docs: correct spelling of CHANGELOG’
+- git commit -m 'Fix:added y to x’  
+- git commit -m ‘Fix:Typo in readme.md’  
+- git commit -m ‘refactor:drop support for iOS 8’  
+- git commit -m ‘docs: correct spelling of CHANGELOG’
 
 ## Tagging
 

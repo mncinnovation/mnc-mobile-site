@@ -9,7 +9,7 @@ weight: 1
 contributors: ["Handi Deyana"]
 ---
 
-Since code are produce inside MNC, or from outsource in last couple of years there are several problems in mobile development MNC group that happened
+Since code are produced inside MNC, or from outsource in last couple of years there are several problems in mobile development MNC group that happened
 
 - Unmaintainable code
 - Harder to handover
