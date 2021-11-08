@@ -1,5 +1,5 @@
 ---
-title: "Git Standard"
+title: "Git Workflow Standard"
 description: "Git Standard 2021"
 lead: "Git Standard 2021"
 date: 2020-11-06T08:48:57+00:00
@@ -85,4 +85,4 @@ Based on [conventionalcommits.org](https://www.conventionalcommits.org/en/v1.0.0
 
 ## Mobile Best Practice
 
-- Use Git GUI Client!
+- Recommend to Use Git GUI Client
