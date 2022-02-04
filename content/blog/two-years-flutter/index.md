@@ -31,11 +31,9 @@ In this last 2 years we tried to adapt this new technology, here the timeline
 
 ### Fast and developer
 
-
 ![Chart Development](3.jpeg)
 
 With fastest about 1.5 month app can be delivered and deploy. But there are two apps that develop until now, it show that development are collective work and team work. it depend on **product, team and developer**.
-
 
 ![ResourceFirst](4.jpeg)
 
@@ -53,7 +51,7 @@ How about the quality app? since quality are measured by many things. author pic
 
 ![avg](6.jpeg)
 
-Average engagement, data taken from Google analytic in last 30 days. 
+Average engagement, data taken from Google analytic in last 30 days.
 
 ![crash](7.jpeg)
 
@@ -62,6 +60,49 @@ Data taken from Google Playstore and Apple Playstore in last 30 days.
 #### Feature Gap
 
 What is feature gap, its different feature between android and ios, some feature are available in android but ios. Since flutter are multiplatform there is **0 Feature gap**. Same experience, same launch time, same developer, more productive.
+
+---
+
+### Experienced developer?
+
+![dev](experience.jpg)
+
+No! 87% of developers are have less than one year experience using flutter.
+
+### How Mobile MNC innovation help ?
+
+#### Training
+
+Before developers develop app, we trained the developers from **basic to intimidiate** courses.
+
+Here some video what we did.
+
+{{< youtube RcTY15R5rO0 >}}
+
+##### How long it took?
+
+A month. it faster compare to 3 month native development.
+
+##### Is it hard to hire flutter developer?
+
+Nope! Compare to hire android and ios developer, they are 'rare' in job market today.
+And flutter dev can from any background fresh graduate, web developer, android developer, ios developer.
+
+#### Standard
+
+After training, in project we use MNC Innovation Flutter standard for
+
+- Flattening learning curve
+- Standardize and unified way of code
+- Maintainable project
+
+You can find out about standard, and data about it [here](https://mobile.mncinnovation.id/blog/code-standard-how-mnc-mobile-innocent-solved-unmaintainable-code)
+
+---
+
+### Conclution
+
+Within 2 years we solve the problems of Human Resource, IOS, and Features Gap. also we develop fast with help of flutter and in most case lean-er.
 
 ---
 
