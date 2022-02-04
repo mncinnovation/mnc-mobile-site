@@ -79,4 +79,4 @@ Desktop app are tool to use for pro to solve theire problem like trading app, mu
 
 Currently we are experimenting with low code in mobile development, stay tune for next update
 
-Thats it, if you want learn flutter please feel free to contact us at [Mendy - MNC Innvoation Mobile lead](mailto:mendhy.galuh@mncgroup.com)
+Thats it, if you want learn flutter please feel free to contact us at [Mendhy - MNC Innvoation Mobile lead](mailto:mendhy.galuh@mncgroup.com)
