@@ -52,9 +52,9 @@ Users of older iOS versions might be using an iPhone that only supports up to iO
 Here are the latest iPhone that support:
 | iOS 9 | iOS 11 |
 |-------|--------|
-| iPhone 5 | iPhone 7 |
-| iPhone 5s | iPhone 7 Plus |
-| iPhone 5c |   |
+| iPhone 4s | iPhone 5s |
+|   | iPhone 6 |
+|   | iPhone 6 Plus |
 
 ##### Matching needs with Requirement
 
