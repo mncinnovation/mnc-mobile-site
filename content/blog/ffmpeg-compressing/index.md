@@ -159,7 +159,7 @@ FFmpeg always using convertion method from input file to output file. So we crea
 
 #### Cons of using FFmpeg
 - It’s difficult for beginners to use and implement.
-- It takes some time to process. We don’t get results in a second or two. It based on the input video (media file) size. The larger size video, then more time to process needed.
+- It takes some time to process. We don’t get results in a second or two. It based on the input video (media file) size and also processor and RAM. The larger size video, or lower processor then more time to process needed.
 - The official documentation is quite confusing and it’s not beginner-friendly.
 - APK size becomes large although we use ``min-gpl`` package of FFmpeg-Kit. </br>
 ![apk-debug](app-debug-size-apk.jpg)
