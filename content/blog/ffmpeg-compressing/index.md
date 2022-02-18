@@ -99,7 +99,7 @@ As others have pointed out, the values will depend on which encoder you're using
     - For [vpx](https://trac.ffmpeg.org/wiki/vpxEncodingGuide) the range is 4-63 <br/>
         By default the CRF value can be from 4–63, and 10 is a good starting point. Lower values mean better quality.
 
-    >**In both cases, a lower value means higher quality**. In my experience, I see x264 much more often.
+    >**In both cases, a lower value means higher quality**. In our experience, we see x264 much more often.
 
 
 ### Case Video Compression
@@ -133,7 +133,7 @@ Next implement the code.
     The result is same compressed to 8.18MB but process time is about 10 minutes.
 3. Next we need to set the bitrate of video.</br>
     ```-i video.mp4 -vf scale=-1,720 -preset veryfast -crf 25 video.mp4```
-    The result is compressed to 5.49MB 406x720px with more good quality of video then before. For the time of process is about 12 minutes.</br>
+    The result is compressed to **5.49MB** 406x720px with more good quality of video then before. For the time of process is about 12 minutes.</br>
 ![video sample info](video_info.jpeg)
 Video sample information</br>
 ![video compressed info](compressed_result.jpeg)
