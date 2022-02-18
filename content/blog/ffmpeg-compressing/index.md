@@ -1,13 +1,13 @@
 ---
-title: "FFMPEG - Compressing Large Size Video"
-description: "Introducing FFMPEG — by Bayu Wijaya Permana Putra."
-lead: "Introducing FFMPEG, leading multimedia framework — by Bayu."
-date: 2020-04-16T16:19:42+07:00
-lastmod: 2020-04-16T16:19:42+07:00
+title: "FFmpeg - Compressing Large Size Video"
+description: "FFmpeg Compressing Large Size Video — by Bayu Wijaya Permana Putra & Andi Septiadi."
+lead: "FFmpeg, leading multimedia framework to compressing large size video — by Bayu & Andi."
+date: 2022-02-18T14:19:42+07:00
+lastmod: 2022-02-18T14:19:42+07:00
 draft: false
 weight: 50
 images: ["say-hello-to-doks.png"]
-contributors: ["Bayu Wijaya Permana Putra"]
+contributors: ["Bayu Wijaya Permana Putra", "Andi Septiadi"]
 ---
 ### Introduction
 Today we often meet the media especially on social media (tiktok, instagram, facebook) that have upload and editor video feature. As developers who want to develop video editor, we need to know how to format and edit the video. One of familiar framework that can do that is FFmpeg.
@@ -15,7 +15,7 @@ Today we often meet the media especially on social media (tiktok, instagram, fac
 FFmpeg is an multimedia framework to record, convert and stream video and audio files, it supports nearly every digital format and codec known, it’s available on most operating systems and platforms it is a powerful command-line tool written in C and Assembly by Fabrice Bellard.
 
 ### Command
-We can use command line to do various audio, video transcoding and conversion operations. 
+We can use command line to do various audio, video transcoding and conversion operations.
 
 We are now going to see some important and useful FFmpeg commands.
 
@@ -121,6 +121,8 @@ We also use LTS version to support Android API Level from 16. For more info you 
 
 Next implement the code.
 
+> We use this [video sample](https://drive.google.com/file/d/1NSpIt3IUqS1fgmocNLHXtTkpmXuk7zbW/view) (505MB 2160x3840px) to test.
+
 1. First we scale the video by using height 720.</br>
     ```-i video.mp4 -vf scale=-1,720 video.mp4```</br>
     The result is from 500MB, compressed to 8.18MB and compressing time is about 12 minutes.
@@ -130,11 +132,17 @@ Next implement the code.
     ```-i video.mp4 -vf scale=-1,720 -preset veryfast video.mp4```</br>
     The result is same compressed to 8.18MB but process time is about 10 minutes.
 3. Next we need to set the bitrate of video.</br>
-    ```-i video.mp4 -vf scale=-1,720 -preset veryfast -crf 23 video.mp4```
-    The result is compressed to 8.46MB with more good quality of video then before. For the time of process is about 11 minutes.
+    ```-i video.mp4 -vf scale=-1,720 -preset veryfast -crf 25 video.mp4```
+    The result is compressed to 5.49MB 406x720px with more good quality of video then before. For the time of process is about 12 minutes.</br>
+![video sample info](video_info.jpeg)
+Video sample information</br>
+![video compressed info](compressed_result.jpeg)
+Compressed Video information
+
 
 4. Create the native SDK.</br>
     After trial and error, and get the best value for our video compression format. The next step is create native SDK.
+    We provide variable to set of scale, preset and bitrate to user for customize it as user needs.
 
 To see sample code of integration or tutorial to use our SDK you can visit:
 * [InnoVideoConverterAndroid](https://github.com/mncinnovation/inno-video-converter-android) for Android
