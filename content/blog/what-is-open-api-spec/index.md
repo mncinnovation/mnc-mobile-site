@@ -1,6 +1,6 @@
 ---
-title: "OPEN API Spec - Global Standard. Generated Code."
-description: "OPEN API Spec - Global Standard. Generated Code."
+title: "OPEN API Spec - Global Standard. Generated Code"
+description: "OPEN API Spec - Global Standard. Generated Code"
 lead: "What is Open API Spec?"
 date: 2022-02-18
 lastmod: 2022-02-18
