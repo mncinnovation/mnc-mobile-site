@@ -29,6 +29,6 @@
 [[redirects]]
   from = "/sharing"
   to = "https://meet.google.com/qjr-ckxr-tzw"
-  status = 200
-  force = true
+  status = 301
+  force = false
  
