@@ -30,4 +30,10 @@
   to = "https://meet.google.com/xmq-cshb-bik"
   status = 301
   force = false
+
+[[redirects]]
+  from = "/meet"
+  to = "https://meet.google.com/odz-noyt-nsf"
+  status = 301
+  force = false
  
