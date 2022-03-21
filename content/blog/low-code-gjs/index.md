@@ -98,4 +98,4 @@ You can make custom function in FlutterFlow but it is little bit difficult to do
 
 Low code can make development for simple app faster by 3x and beginner friendly for new developer. but still you need to export the code for making custom ui, add functionality to make whole app.
 
-So flutterflow can help UI development by 3x so we adopt it for UI development, since UI development are of many process to make app and we believe in technological progress maybe lowcode can make development easier in future.
+So flutterflow can help UI development by 3x so we adopt it for UI development, since UI development are one of many process to make app and we believe in technological progress maybe lowcode can make development easier in future.
