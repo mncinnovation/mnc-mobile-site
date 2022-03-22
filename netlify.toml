@@ -22,18 +22,18 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline' https://www.youtube.com  https://fonts.googleapis.com; form-action 'self'; script-src 'self'; connect-src 'self'; img-src 'self'; base-uri 'self'; frame-src 'self' https://www.youtube.com;"
+    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline' https://www.youtube.com  https://fonts.googleapis.com; form-action 'self'; script-src 'self'; connect-src 'self'; img-src 'self'; base-uri 'self'; frame-src 'self' https://www.youtube.com;font-src 'self' https://fonts.googleapis.com;"
 
 
 [[redirects]]
   from = "/sharing"
   to = "https://us04web.zoom.us/j/72559878268?pwd=skwgJ-FheeTnWs4Fu22Pk4aeLycNGo.1"
-  status = 301
+  status = 200
   force = false
 
 [[redirects]]
   from = "/meet"
   to = "https://meet.google.com/odz-noyt-nsf"
-  status = 301
+  status = 200
   force = false
  
