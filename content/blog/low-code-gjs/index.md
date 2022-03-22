@@ -6,7 +6,8 @@ date: 2022-03-21
 lastmod: 2022-03-21
 draft: false
 weight: 1
-images: ["THUMB.jpg"]
+images: 
+ - "THUMB.jpg"
 contributors: ["Handi Deyana","Ahmad Ruslan"]
 ---
 
