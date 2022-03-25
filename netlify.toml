@@ -28,12 +28,12 @@
 [[redirects]]
   from = "/sharing"
   to = "https://us04web.zoom.us/j/72559878268?pwd=skwgJ-FheeTnWs4Fu22Pk4aeLycNGo.1"
-  status = 200
+  status = 302
   force = false
 
 [[redirects]]
   from = "/meet"
   to = "https://meet.google.com/odz-noyt-nsf"
-  status = 200
+  status = 302
   force = false
  
