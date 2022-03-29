@@ -3,7 +3,7 @@
   <div class="container">
     <input class="menu-btn order-0" type="checkbox" id="menu-btn">
     <label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
-    <a class="navbar-brand order-1 order-md-0 me-auto" href="{{ .Site.BaseURL | absURL }}"><img src="/android-chrome-192x192.png" alt="logo site" width="36" height="36"></a>
+    <a class="navbar-brand order-1 order-md-0 me-auto" href="{{ .Site.BaseURL | absURL }}"><img src="/android-chrome-192x192.png" alt="logo site" width="36" height="36" style="object-fit: contain;"></a>
     {{ if .Site.Params.options.darkMode -}}
     <button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
       <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
