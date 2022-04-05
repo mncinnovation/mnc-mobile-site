@@ -27,7 +27,7 @@ So, **Non-Fungible Tokens (NFTs)** are digital assets that represent valuables w
 
 ## How it's work?
 
-In terms of Ghozali, he minted the artwork(selfie photos) on NFT marketplace. Here's the flow
+In terms of Ghozali, he minted the artwork(selfie photos) on NFT marketplace. In general, here's the flow :
 ![Flow NFT](flow-nft.jpg)
 
     Minting: it means converting it into tokens. To mint you have to pay some gas free. For that you have to create a crypto exchange account.
@@ -44,6 +44,60 @@ The inevitable part of any trading of assets comes with the ability to hold and 
 
 ### Trying to turn artwork into a NFT
 
-We're in MNC Innovation Center trying to explore the tech behind the NFT. We're finding out how NFTs actually happen and how it's work. This exploration will focus on the process of making an artwork into an NFT and selling on the marketplace.
+We're in MNC Innovation Center trying to explore the tech behind the NFT. We're finding out how NFTs actually happen and how it's work. This exploration will focus on the process of making an artwork into an NFT and sell.
 
-#### Prepare the artwork
+#### The Artwork 
+
+After looking at several popular NFTs, most of them have the same pattern of creating several examples of different artwork based on the layers provided. 
+![Cryptopunk](CryptoPunk.png)
+![Doge](doge.png)
+Popular tool used to create multiple different instances of artworks based on provided layers is [HashLips Art Engine](https://github.com/HashLips/hashlips_art_engine). But actually we can also make it from paintings or sketches.
+
+#### Metadata
+
+NFT metadata is the core of an NFT. It is a JSON document that often contains the following:
+- NFT’s name
+- Description of the NFT
+- Link to the hosted image
+- Traits, and many more..
+
+![metadata](metadata-opensea.png)
+source: [https://docs.opensea.io/docs/metadata-standards](https://docs.opensea.io/docs/metadata-standards)
+
+#### Smart Contract
+
+A smart contract is programming that exists within the blockchain. This enables the network to store the information that is indicated in an NFT transaction. Once done this information can be accessed when needed. The smart contract also ensures that the information stored is transparent as well as immutable. 
+
+NFTs are run by smart contracts which govern the various actions such as: 
+- Verifying the ownership 
+- Handling the transferability
+
+Since Ethereum is the most used NFT. The standards in Ethereum is [ERC 721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/). 
+
+ERC721 standard defines the workings of a smart contract. When a token is transferred they need 2 pieces of information: 
+- Address of Smart Contract 
+- ID of the Token
+
+Not sure where to start? try to visit [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/wizard)
+
+If you don't want to preinvent the wheel, actually some of creator or community share the NFTs smart contract on public like [NFT Minter from HashLipz](https://github.com/HashLips/example_nft_minter/blob/main/contracts/SmartContract.sol)
+
+All we need is learn how it's work and make sure it fits with what we need.
+
+##### Digital Wallet
+
+Next, We will need a digital wallet that allows you to send and receive transactions. The most popular wallet these days is [Metamask](https://metamask.io/).
+![metamask](metamask.png)
+
+##### Tools
+
+Since we're try to developing, deploying and administering smart contracts for Ethereum network, [Remix Project](https://remix-project.org/) is one of community and tools for us to learn. 
+
+Smart contracts implemented using high-level language called [Solidity](https://docs.soliditylang.org/en/v0.6.1/index.html). Solidity was influenced by C++, Python and JavaScript and is designed to target the Ethereum Virtual Machine (EVM).
+
+ Deploying a smart contract directly on the mainnet is not ideal. You need to test the smart contracts on the local blockchain development network first. We're using [Remix IDE](https://remix.ethereum.org/). 
+ 
+ They have a compiler to check for errors. They offer a wide variety of deployment options. You can deploy it on Javascript-based Virtual Machine, Injected Web3 for MetaMask, and local blockchain network.
+ ![remix](remix.png)
+
+ 
