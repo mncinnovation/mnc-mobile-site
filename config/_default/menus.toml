@@ -45,10 +45,17 @@
   url = "/docs/welcome/"
 
 [[docs]]
-  name = "MNC Apps"
+  name = "MNC Identifier"
   weight = 20
+  identifier = "mncidentifier"
+  url = "/docs/identifier/"
+
+[[docs]]
+  name = "MNC Apps"
+  weight = 30
   identifier = "mncapps"
   url = "/docs/mncapps/"
+
 
 [[main]]
   name = "Showcase"

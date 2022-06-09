@@ -13,6 +13,19 @@ weight: 10
 toc: true
 ---
 
+## MNC Identifier
+
+![coverid](identifier-cover.jpeg)
+
+Identifier SDK are set of SDKs to identify user with AI and ML in mobile application
+
+it has these feature:
+
+- Human liveness
+- Indonesia ID (KTP) OCR
+
+All of these feature are free
+
 ## MNCApps
 
 | | |
