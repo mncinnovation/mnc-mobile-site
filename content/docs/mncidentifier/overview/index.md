@@ -36,6 +36,8 @@ The challange are randomly test to user so every user has different experience. 
 
 ### Experience and flow
 
+{{< video-short src="9oexWKl.mp4" type="video/mp4">}}
+
 We recommend to test the liveness of user for the first time when user start KYC jurney
 
 ![flow_ocr](flow_lv.jpeg)
@@ -94,6 +96,8 @@ Here some available data that this sdk read:
 - berlaku
 
 ### Experience and flow
+
+{{< video-short src="ocr_video.mp4" type="video/mp4">}}
 
 ![flow_ktp](flow_ktp.jpeg)
 
