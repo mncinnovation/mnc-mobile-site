@@ -1,7 +1,7 @@
 {{ $vid := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) -}}
 
 <center>
-    <video class="video-shortcode" preload="{{ .Get " preload" }}" autoplay loop style="margin: 0 auto; ">
+    <video class="video-shortcode" preload="{{ .Get " preload" }}" autoplay controls loop style="margin: 0 auto; ">
         <source src="{{ $vid }}" type="{{ .Get " type" }}">
         There should have been a video here but your browser does not seem
         to support it.
