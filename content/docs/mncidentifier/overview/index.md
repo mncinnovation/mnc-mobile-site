@@ -24,7 +24,7 @@ All of these library are free, and open source you
 
 ![banner_lv](banner_liveness.jpeg)
 
-This library created to make sure the user are **human** not bot, to verify that user are human, there are several challange for user to complete, like:
+This library created to make sure the user are **human** not bot, to verify that user are human, there are several challenge for user to complete, like:
 
 - Smile
 - Nod
@@ -32,7 +32,7 @@ This library created to make sure the user are **human** not bot, to verify that
 - Close eye
 - Open mouth
 
-The challange are randomly test to user so every user has different experience. User will ask twice to complete the challange. here are the journey for user.
+The challenge are randomly test to user so every user has different experience. User will ask twice to complete the challenge. here are the journey for user.
 
 ### Experience and flow
 
