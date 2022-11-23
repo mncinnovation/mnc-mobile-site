@@ -36,4 +36,10 @@
   to = "https://meet.google.com/odz-noyt-nsf"
   status = 302
   force = false
+  
+ [[redirects]]
+  from = "/meeting"
+  to = "https://meet.qiscus.com/mobile-innocent"
+  status = 302
+  force = false
  
