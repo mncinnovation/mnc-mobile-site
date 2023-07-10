@@ -15,7 +15,7 @@ toc: true
 
 ## Get started
 
-1. Download _(DONT CLONE)_ from source code [MNC REPO →](https://mnc-repo.mncdigital.com/mobiledevadmin/mnc-standard-flutter-boilerplate/tree/master)
+1. Download _(DONT CLONE)_ from source code [MNC REPO →](https://repo.mncinnovation.id/innocent-rnd/mobile-dev/mnc-inno-flutter-standard)
 
 2. Follow step by step guide in TODO_Boilerplate.md [TODO →](https://mnc-repo.mncdigital.com/mobiledevadmin/mnc-standard-flutter-boilerplate/blob/master/TODO_boilerplate.md)
 
